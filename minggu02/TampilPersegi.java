@@ -22,5 +22,6 @@ public class TampilPersegi {
         System.out.println("Keliling persegi: " + keliling);
 
         scanner.close();
+
     }
 }

@@ -18,4 +18,5 @@ public class Persegi {
     public int kelilingPersegi() {
         return 4 * sisi;
     }
+
 }
