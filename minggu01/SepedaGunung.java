@@ -9,4 +9,5 @@ public class SepedaGunung extends Sepeda {
         super.cetakStatus();
         System.out.println("Tipe suspensi: " + tipeSuspensi);
     }
+
 }

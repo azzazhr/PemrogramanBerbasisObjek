@@ -21,5 +21,6 @@ public class SepedaDemo {
         spd3.gantiGear(7);
         spd3.setTipeSuspensi("Gas suspension");
         spd3.cetakStatus();
+
     }
 }
