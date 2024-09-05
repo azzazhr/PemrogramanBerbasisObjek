@@ -13,7 +13,6 @@ public class MobilManual {
         this.jumlahGigi = jumlahGigi;
     }
 
-    // Method
     public void menghitungJarakTempuh() {
         System.out.println("Jarak tempuh maksimal: " + (kapasitasMesin * 10) + " km");
     }

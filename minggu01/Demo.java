@@ -5,7 +5,6 @@ public class Demo {
         Kertas kertas = new Kertas("A4", "210x297", "Putih", 21, 29.7);
         Kaca kaca = new Kaca("Tempered", 10, "Persegi", 100, 200);
 
-        // Terapkan setiap method
         mobilMatic.tambahKapasitasBensin(10);
         mobilMatic.cetakInformasi();
         System.out.println("=========================");

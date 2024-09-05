@@ -13,7 +13,6 @@ public class Kaca {
         this.lebar = lebar;
     }
 
-    // Method
     public void menghitungLuasKaca() {
         double luas = panjang * lebar;
         System.out.println("Luas kaca: " + luas + " cm²");

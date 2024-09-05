@@ -13,7 +13,6 @@ public class Kertas {
         this.lebar = lebar;
     }
 
-    // Method
     public void menghitungLuasKertas() {
         double luas = panjang * lebar;
         System.out.println("Luas kertas: " + luas + " cm²");

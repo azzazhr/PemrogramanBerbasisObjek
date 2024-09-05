@@ -22,4 +22,5 @@ public class Mobil extends MobilMatic {
     public void ubahTipeTransmisi(String tipeTransmisiBaru) {
         this.tipeTransmisi = tipeTransmisiBaru;
     }
+
 }

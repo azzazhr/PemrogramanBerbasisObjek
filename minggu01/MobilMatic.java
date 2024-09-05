@@ -13,7 +13,6 @@ public class MobilMatic {
         this.jenisTransmisi = jenisTransmisi;
     }
 
-    // Method
     public void menghitungBensin() {
         System.out.println("Kapasitas bensin: " + kapasitasBensin + " liter");
     }
