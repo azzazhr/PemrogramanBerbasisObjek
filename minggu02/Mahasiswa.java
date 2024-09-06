@@ -1,19 +1,15 @@
 package minggu02;
 
 public class Mahasiswa {
-    private String nama;
-    private int nim;
+    public int nim;
+    public String nama;
+    public String alamat;
+    public String kelas;
 
-    public Mahasiswa(String nama, int nim) {
-        this.nama = nama;
-        this.nim = nim;
-    }
-
-    public String getNama() {
-        return nama;
-    }
-
-    public int getNim() {
-        return nim;
+    public void tampilBiodata() {
+        System.out.println("Nim     :" + nim);
+        System.out.println("Nama    :" + nama);
+        System.out.println("Alamat  :" + alamat);
+        System.out.println("Kelas   :" + kelas);
     }
 }
