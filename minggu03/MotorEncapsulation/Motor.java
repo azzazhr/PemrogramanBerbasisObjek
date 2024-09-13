@@ -3,6 +3,7 @@ package minggu03.MotorEncapsulation;
 public class Motor {
     private int kecepatan = 0;
     private boolean kotakOn = false;
+    private int kecepatanMaksimum = 100;
 
     public void nyalakanMesin() {
         kotakOn = true;
@@ -14,8 +15,13 @@ public class Motor {
     }
 
     public void tambahKecepatan() {
-        if (kotakOn == true) {
-            kecepatan += 5;
+        if (kotakOn) {
+            if (kecepatan + 5 > kecepatanMaksimum) {
+                kecepatan = kecepatanMaksimum;
+                System.out.println("Kecepatan sudah mencapai batas maksimum: " + kecepatanMaksimum + "\n");
+            } else {
+                kecepatan += 5;
+            }
         } else {
             System.out.println("Kecepatan tidak bisa bertambah karena Mesin Off! \n");
         }
