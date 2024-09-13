@@ -57,4 +57,5 @@ public class Anggota {
             System.out.println("Jumlah angsuran tidak boleh negatif.");
         }
     }
+
 }
