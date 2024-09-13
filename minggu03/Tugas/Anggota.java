@@ -47,7 +47,12 @@ public class Anggota {
 
     public void angsur(int jumlah) {
         if (jumlah > 0) {
-            jumlahPinjaman -= jumlah;
+            float minimalAngsuran = jumlahPinjaman * 0.1f;
+            if (jumlah < minimalAngsuran) {
+                System.out.println("Maaf, angsuran harus 10% dari jumlah pinjaman.");
+            } else {
+                jumlahPinjaman -= jumlah;
+            }
         } else {
             System.out.println("Jumlah angsuran tidak boleh negatif.");
         }
